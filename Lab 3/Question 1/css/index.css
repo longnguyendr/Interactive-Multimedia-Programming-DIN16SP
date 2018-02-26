@@ -1,0 +1,81 @@
+h1
+{
+	text-align:center;
+	color: White;
+}
+body
+{
+	background-image: url("../images/galaxy.jpg");
+	font-family: 'Sofia';
+}
+.main
+{
+	display: flex;
+  justify-content: center;
+}
+
+.main > div
+{
+		background: linear-gradient(to bottom right,#0f0c29 0%,#302b6320 20%,#24243e 70%);
+		color: white;
+	 margin: 10px;
+	 line-height: 25px;
+	 width:550px;
+	 height:400px;
+	 top:100px;
+	 overflow-y: scroll;
+	 padding-left: 10px;
+	 border-top-left-radius: 20px ;
+	 border-bottom-left-radius: 20px ;
+	 font-family: 'Sofia';
+}
+.inputfield
+{
+	display: flex;
+  justify-content: center;
+}
+
+#inputs
+{
+	width: 380px;
+	height: 45px;
+	border-top-left-radius: 10px ;
+	border-bottom-left-radius: 10px ;
+	padding-left: 15px;
+	background: linear-gradient(to bottom right,#0f0c29,#302b63,#24243e);
+	color: white;
+	font-family: 'Sofia';
+	font-size: 15px;
+}
+
+#sendbt
+{
+	width: 100px;
+	height: 45px;
+	transition: 2s;
+	color: white;
+	font-family: 'Sofia';
+	/*background: linear-gradient(to bottom right,#0f0c29 10%,#302b6320 20%,#24243e 80%);*/
+	background: linear-gradient(to bottom right,#0f0c29 0%,#302b6320 20%,#24243e 70%);
+
+}
+
+#sendbt:hover
+{
+	width: 100px;
+	height: 45px;
+	border-radius: 50%;
+	background: linear-gradient(to bottom right,#0f0c29 0%,#302b6320 20%,#24243e 70%);
+}
+.chkstatus
+{
+	transition: 2s;
+	color: white;
+	font-family: 'Sofia';
+}
+.chkstatus p
+{
+
+	display: flex;
+	justify-content: center;
+}

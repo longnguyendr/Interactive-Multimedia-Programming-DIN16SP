@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+		<link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+   </head>
+   <body onload="javascript:WebSocketTest();">
+
+      <h1>GROUP CHAT: USING WEBSOCKET</h1>
+      <!-- Check status-->
+      <div class="chkstatus">
+          <p id="Status"></p>
+      </div>
+
+      <!-- display chat  -->
+      <div class="main">
+    		 <div class="contents" >
+    			    <p id="displays"></p>
+    		 </div>
+      </div>
+
+      <!-- input chat -->
+      <div class="inputfield">
+          <input type="text" placeholder="Enter the text...." id="inputs" onkeydown="keyCode(event)"></input>
+          <input type="button" value="Send" id="sendbt" onclick="sends()"></input>
+      </div>
+
+
+
+   </body>
+</html>

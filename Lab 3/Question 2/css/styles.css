@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  background: #212121;
+}
+/* set .container to have the 50% width of page if page-size larger than 600px*/
+@media screen and (min-width: 600px) {
+  .container {
+    width: 50%;
+    margin: auto;
+    background: #212121;
+    padding: 3px;
+  }
+}
+
+/*input field div*/
+.input {
+  width: 100%;
+  background: purple;
+  padding: 10px;
+  text-align: center;
+  margin-top: 3px;
+  margin: auto;
+}
+
+.input label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#inputField {
+  width: 100%;
+  padding: 5px 8px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  margin: 5px 0;
+}
+
+.button {
+  width: 20%;
+  background: black;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+  transition: 1s;
+  border-radius: 100%;
+}
+.button:hover
+{
+  font-size: 30px;
+  color: blue;
+}
+
+/*show list of result field*/
+.nameListField {
+  width: 100%;
+  min-height: 10px;
+  margin-top: 5px;
+  margin: auto;
+}
+
+#displays {
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  list-style-type: none;
+  line-height: 30px;
+  background: #EEEEEE;
+  /*cursor: pointer;*/
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  height: auto;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.list-item:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.list-item:hover {
+  background: #ddd;
+  font-size: 30px;
+  transition: 1s;
+}
+
+.list-item:nth-child(odd) {
+  background-color: gray;
+  color: white;
+}
